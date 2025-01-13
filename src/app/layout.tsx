@@ -19,7 +19,7 @@ export default function RootLayout({
         className={'antialiased'}
       >       
         <Header /> 
-        <Breadcrumb separator="" containerClasses="breadcrumb" listClasses="breadcrumb-item" activeClasses="active" />
+        <Breadcrumb separator=" > " containerClasses="breadcrumb" listClasses="breadcrumb-item" activeClasses="active" />
         {children}
       </body>
     </html>
