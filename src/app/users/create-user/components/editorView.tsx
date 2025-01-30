@@ -8,6 +8,7 @@ import Paragraph from '@tiptap/extension-paragraph'
 import Text from '@tiptap/extension-text'
 import StarterKit from '@tiptap/starter-kit'
 import TextStyle from '@tiptap/extension-text-style'
+import Color from '@tiptap/extension-color'
 
 interface EditorViewProps {
   value: Content
@@ -19,7 +20,7 @@ export const EditorView = ({ value }: EditorViewProps) => {
     editable: false,
     content: value,
     autofocus: false,
-    extensions: [StarterKit, TextStyle],
+    extensions: [StarterKit, TextStyle, Color]
   })
 
   if (!editor) {
