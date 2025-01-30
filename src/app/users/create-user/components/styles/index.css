@@ -1,0 +1,11 @@
+:root {
+  --mt-accent-bold-blue: #007bff; /* Exemplo de cor azul */
+}
+
+.ProseMirror {
+  color: inherit;
+}
+
+.ProseMirror span {
+  color: var(--mt-accent-bold-blue);
+}
